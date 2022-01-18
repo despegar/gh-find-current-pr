@@ -20,7 +20,7 @@ By default, `gh-find-current-pr` will only return open PRs.  You can pass in a
     steps:
       - uses: actions/checkout@v1
       # Find the PR associated with this push, if there is one.
-      - uses: jwalton/gh-find-current-pr@v1
+      - uses: despegar/gh-find-current-pr@v1
         id: findPr
         with:
           # Can be "open", "closed", or "all".  Defaults to "open".
